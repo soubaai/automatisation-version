@@ -2,18 +2,18 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
 	<artifactId>maven-release-plugin-example</artifactId>
-	<version>0.3</version>
+	<version>0.4-SNAPSHOT</version>
 	<scm>
 		<url>https://github.com/soubaai/automatisation-version</url>
 		<connection>scm:git:https://github.com/soubaai/automatisation-version.git</connection>
-      <tag>v0.3</tag>
-  </scm>
+        <tag>v0.3</tag>
+    </scm>
 	
 	<!-- Repository Information -->
 	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
-			<url>http://localhost:8081/repository/api-release</url>
+			<url>http://localhost:8081/repository/api-release/</url>
 		</repository>
 	</distributionManagement>
 	<profiles>
