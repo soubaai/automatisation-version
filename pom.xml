@@ -6,7 +6,7 @@
 	<scm>
 		<url>https://github.com/soubaai/automatisation-version</url>
 		<connection>scm:git:https://github.com/soubaai/automatisation-version.git</connection>
-        <tag>v0.4</tag>
+        <tag>HEAD</tag>
     </scm>
 	
 	<!-- Repository Information -->
