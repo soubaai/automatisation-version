@@ -2,11 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
 	<artifactId>maven-release-plugin-example</artifactId>
-	<version>0.7-SNAPSHOT</version>
+	<version>0.7</version>
 	<scm>
 		<url>https://github.com/soubaai/automatisation-version</url>
 		<connection>scm:git:https://github.com/soubaai/automatisation-version.git</connection>
-        <tag>v0.4</tag>
+        <tag>v0.7</tag>
     </scm>
 	
 	<!-- Repository Information -->
