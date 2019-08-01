@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>module1</artifactId>
-	<version>0.16-SNAPSHOT</version>
+	<version>0.17</version>
 	<scm>
 		<url>https://github.com/soubaai/automatisation-version</url>
 		<connection>scm:git:https://github.com/soubaai/automatisation-version.git</connection>
-		<tag>HEAD</tag>
+		<tag>v${releaseVersion}</tag>
 	</scm>
 	<packaging>jar</packaging>
 
@@ -16,7 +16,7 @@
 	<parent>
 		<groupId>com.test</groupId>
 		<artifactId>maven-release-plugin-example</artifactId>
-		<version>0.16-SNAPSHOT</version>
+		<version>0.17</version>
 	</parent>
 
 	<properties>
