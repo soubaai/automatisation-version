@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.test</groupId>
     <artifactId>maven-release-plugin-example</artifactId>
-    <version>1.21.22-SNAPSHOT</version>
+    <version>1.21.21</version>
   </parent>
   <artifactId>module2</artifactId>
 </project>
