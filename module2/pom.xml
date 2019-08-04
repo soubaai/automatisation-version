@@ -5,5 +5,7 @@
     <artifactId>maven-release-plugin-example</artifactId>
 	<version>0.18-SNAPSHOT</version>
   </parent>
-  <artifactId>module2</artifactId>
+  <artifactId>module2</artifactId>	
+  <version>0.18-SNAPSHOT</version>
+  
 </project>

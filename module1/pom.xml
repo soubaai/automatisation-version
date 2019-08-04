@@ -4,11 +4,7 @@
 
 	<artifactId>module1</artifactId>
 	<version>0.18-SNAPSHOT</version>
-	<scm>
-		<url>https://github.com/soubaai/automatisation-version</url>
-		<connection>scm:git:https://github.com/soubaai/automatisation-version.git</connection>
-		<tag>HEAD</tag>
-	</scm>
+
 	<packaging>jar</packaging>
 
 	<name>child module</name>
