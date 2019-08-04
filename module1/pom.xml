@@ -4,8 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>module1</artifactId>
-	<version>1.21.24-SNAPSHOT</version>
-
+	<version>@{project.dev.version}-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>child module</name>
@@ -13,7 +12,7 @@
 	<parent>
 		<groupId>com.test</groupId>
 		<artifactId>maven-release-plugin-example</artifactId>
-		<version>1.21.24-SNAPSHOT</version>
+		<version>1.21.22-SNAPSHOT</version>
 	</parent>
 
 	<properties>
@@ -26,14 +25,13 @@
 		<spring-loaded.version>1.2.3.RELEASE</spring-loaded.version>
 	</properties>
 	<build>
-
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
 				<configuration>
-					<tag>QA-m1-${releaseVersion}</tag>
+					<tag>QA-m1-@{project.version}</tag>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<!-- releaseProfiles configuration will actually force a Maven profile 
