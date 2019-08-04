@@ -4,11 +4,11 @@
 	<packaging>pom</packaging>
 	<groupId>com.test</groupId>
 	<artifactId>maven-release-plugin-example</artifactId>
-	<version>1.21.23-SNAPSHOT</version>
+	<version>1.21.23</version>
 	<scm>
 		<url>https://github.com/soubaai/automatisation-version</url>
 		<connection>scm:git:https://github.com/soubaai/automatisation-version.git</connection>
-		<tag>HEAD</tag>
+		<tag>QA-${releaseVersion}</tag>
 	</scm>
 
 	<modules>
