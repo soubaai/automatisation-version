@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>module1</artifactId>
-	<version>@{project.dev.version}-SNAPSHOT</version>
+	<version>${project.dev.version}-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>child module</name>
