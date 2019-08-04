@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>module1</artifactId>
-	<version>1.21.24</version>
+	<version>1.21.24-SNAPSHOT</version>
 	<scm>
 		<url>https://github.com/soubaai/automatisation-version</url>
 		<connection>scm:git:https://github.com/soubaai/automatisation-version.git</connection>
-		<tag>QA-${releaseVersion}</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<packaging>jar</packaging>
 
@@ -16,7 +17,7 @@
 	<parent>
 		<groupId>com.test</groupId>
 		<artifactId>maven-release-plugin-example</artifactId>
-		<version>1.21.24</version>
+		<version>1.21.24-SNAPSHOT</version>
 	</parent>
 
 	<properties>
@@ -36,7 +37,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
 				<configuration>
-<!-- 					<tag>QA-m1-${releaseVersion}</tag> -->
+					<tag>QA-m1-${releaseVersion}</tag>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<!-- releaseProfiles configuration will actually force a Maven profile 
