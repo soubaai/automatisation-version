@@ -3,10 +3,10 @@
   <parent>
     <groupId>com.test</groupId>
     <artifactId>maven-release-plugin-example</artifactId>
-	<version>1.21.25-SNAPSHOT</version>
+	<version>1.21.25</version>
   </parent>
   <artifactId>module2</artifactId>	
-  <version>1.21.25-SNAPSHOT</version>
+  <version>1.21.25</version>
   
   		<build>
 			<plugins>
