@@ -14,7 +14,6 @@
 
 	<modules>
 		<module>automatisation-version-parent</module>
-
 		<module>module1</module>
 		<module>module2</module>
 	</modules>
