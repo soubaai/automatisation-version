@@ -23,34 +23,7 @@
 			<url>http://localhost:8081/repository/api-release/</url>
 		</repository>
 	</distributionManagement>
-	<profiles>
-		<profile>
-			<id>test</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-antrun-plugin</artifactId>
-						<version>1.1</version>
-						<executions>
-							<execution>
-								<phase>test</phase>
-								<goals>
-									<goal>run</goal>
-								</goals>
-								<configuration>
-									<tasks>
-										<echo>Using env.test.properties</echo>
-										<!-- Using predefined maven properties mentioned in https://github.com/arpitaggarwal/predefined_maven_properties -->
-										<copy file="src/main/resources/env.test.properties" tofile="${project.build.outputDirectory}/env.properties" />
-									</tasks>
-								</configuration>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
+	<profiles>	
 		<profile>
 			<id>releases</id>
 			<build>
