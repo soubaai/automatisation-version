@@ -7,11 +7,11 @@
 
 	<packaging>jar</packaging>
 
-	<name>child module</name>
+	<name>module1</name>
 
 	<parent>
 		<groupId>com.test</groupId>
-		<artifactId>maven-release-plugin-example</artifactId>
+		<artifactId>parent-project</artifactId>
 		<version> 0.23-SNAPSHOT</version>
 	</parent>
 
